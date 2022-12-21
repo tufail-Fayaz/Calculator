@@ -53,6 +53,8 @@ function pressEqual() {
 
 function pressAllClear() {
   outputLower.innerHTML = '';
+  outputUpper.innerHTML = '';
+  // outputUpper.innerHTML = '0';
   outputLower.innerHTML = '0';
 }
 
